@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/item_margin"
+    android:background="@drawable/ic_linearlayout_border_shadow"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/text_size">
+
+    <TextView
+        android:id="@+id/item_addr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:padding="@dimen/text_margin"
+        android:text="addr: 192.168.43.59:8080"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/item_itme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:padding="@dimen/text_margin"
+        android:text="time: 2020-10-22 18:00:00"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/item_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="type: file"
+        android:textAppearance="?attr/textAppearanceListItem" />
+</LinearLayout>
