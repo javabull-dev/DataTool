@@ -20,3 +20,5 @@
 
 
 可配合[DataTransportTool](https://github.com/JavaBull-dev/DataTransportTool)实现安卓与电脑传输数据
+
+安卓app打包方法可阅读博客[Android Studio项目打包生成可安装在自己手机上的App安装包文件](https://blog.csdn.net/weixin_45192980/article/details/122593213)
